@@ -15,3 +15,10 @@ A project that integrates [`react-native-calendars`](https://github.com/wix/reac
     
     // run the app with skpm (sketch plugin manager)
     yarn run render
+
+## Babel presets I have tried:
+    {
+      "presets": ["react", "stage-0", "es2015"],
+      "plugins": ["transform-object-rest-spread", "transform-class-properties"]
+    }
+
