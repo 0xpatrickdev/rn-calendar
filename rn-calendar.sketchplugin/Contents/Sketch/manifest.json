@@ -1,0 +1,24 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "react-sketchapp: RN Calendar",
+      "identifier": "main",
+      "script": "my-command.js"
+    }
+  ],
+  "menu": {
+    "isRoot": true,
+    "items": [
+      "main"
+    ]
+  },
+  "version": "0.1.0",
+  "description": "wix-react-native-calendars rendered to sketch",
+  "name": "rn-calendar",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "Pat Cooney",
+  "email": "pcooney10@gmail.com"
+}

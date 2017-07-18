@@ -1,0 +1,30 @@
+{
+  "name": "rn-calendar",
+  "version": "0.1.0",
+  "description": "wix-react-native-calendars rendered to sketch",
+  "main": "rn-calendar.sketchplugin",
+  "manifest": "src/manifest.json",
+  "scripts": {
+    "build": "skpm build",
+    "watch": "skpm build --watch",
+    "render": "skpm build --watch --run",
+    "render:once": "skpm build --run",
+    "link-plugin": "skpm link"
+  },
+  "author": "Pat Cooney <pcooney10@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-stage-0": "^6.24.1",
+    "skpm": "^0.10.2"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "chroma-js": "^1.2.2",
+    "global": "^4.3.2",
+    "prop-types": "^15.5.8",
+    "react": "^15.4.2",
+    "react-native-calendars": "^1.5.3",
+    "react-sketchapp": "^0.11.0",
+    "react-test-renderer": "^15.4.2"
+  }
+}
