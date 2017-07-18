@@ -23,9 +23,10 @@ const Swatch = () => (
 );*/
 
 const Document = () => {
-  <Artboard name="Calendars List" >
+  return ( <Artboard name="Calendars List" >
     <CalendarsList />
   </Artboard>
+  )
 };
 
 export default (context) => {
